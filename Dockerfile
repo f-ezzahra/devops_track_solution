@@ -9,7 +9,6 @@ ENV GPORT=5432 \
 
 ADD . /app
 WORKDIR /app
-COPY ./app
 EXPOSE 5432
 VOLUME database_data:/var/lib/postgresql/data
 
