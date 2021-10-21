@@ -10,9 +10,9 @@ jobs:
 
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: postgres
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: fatibi/work_simple
     - name: Build the Docker image
       run: docker build . 
