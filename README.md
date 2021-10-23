@@ -11,7 +11,7 @@ https://hub.docker.com/repository/docker/fatibi/work_simple
 step 1 : go to dockerhub and write fatibi/work_simple
 step 2 : docker login 
 step 3 :  docker pull fatibi/work_simple
-step 4 : docker run -t _e POSTGRES_PASSWORD=password fatibi/work_simple
+step 4 : docker run -t _e POSTGRES_PASSWORD="see password in security.md" fatibi/work_simple
 make sure to connect your github account to your cmd
 you can have the password in Security.md for this project 
 
